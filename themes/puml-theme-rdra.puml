@@ -1,0 +1,75 @@
+!define RDRA
+' right footer author
+' title title
+left to right direction
+' scale max 2048 width
+
+' === スタイル ===
+skinparam {
+    ' === 共通設定 ===
+    shadowing false
+    ' linetype ortho
+    backgroundColor whitesmoke
+    arrow {
+        color blue
+        thickness 0.8
+        fontSize 10
+    }
+    title {
+        FontSize 14
+        ' FontColor blue
+        BorderThickness 10
+        BorderColor transparent
+    }
+
+    ' === 要素別設定 ===
+    rectangle {
+        BackgroundColor business
+        BorderColor #000
+        RoundCorner 25
+        BorderThickness 0.6
+        fontColor black
+        fontSize 14
+    }
+    actor {
+        BackgroundColor business
+        BorderColor #999999
+        BorderThickness 2
+        fontColor black
+        fontSize 12
+    }
+    database {
+        BorderColor #999999
+        fontColor black
+        BorderThickness 1
+        fontSize 12
+    }
+    interface {
+        BackgroundColor white
+        BorderThickness 0.5
+        BorderColor indianRed
+        fontColor black
+        BorderThickness 1
+        fontSize 11
+    }
+    storage {
+        BackgroundColor white
+        BorderThickness 0.5
+        BorderColor #666666
+        fontColor black
+        fontSize 11
+    }
+    collections {
+        BorderColor #999999
+        BorderThickness 1
+        fontColor black
+        fontSize 12
+    }
+    card {
+        BorderColor #999999
+        fontColor black
+        BorderThickness 1
+        roundCorner 20
+        fontSize 12
+    }
+}
